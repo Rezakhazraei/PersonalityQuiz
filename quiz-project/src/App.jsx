@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from 'react'
 import UserProvider from './components/UserContext';
@@ -54,7 +55,7 @@ function App() {
       setElement(resultElement);
       fetchArtwork(resultElement);
     }
-  }, [currentQuestionIndex, answers]);
+  }, [currentQuestionIndex]);
   
   
   function determineElement(answers) {
