@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 // This component will hold the logic for displaying the questions
 
-// eslint-disable-next-line react/prop-types
 export default function Question({ question, options, onAnswer }) {
     
     return (
